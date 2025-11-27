@@ -78,6 +78,29 @@ Todo el proceso se gestionará mediante **Git y GitHub** utilizando ramas, commi
 
 ## 🔧 Uso
 
-1. Ejecutar el programa desde consola:  
-```bash
-python main.py
+- Ejecutar el programa desde consola  
+- Registrar libros y usuarios  
+- Gestionar préstamos y devoluciones  
+- Visualizar el estado del sistema  
+- Probar las funcionalidades implementadas en cada historia de usuario
+
+---
+
+## 🏢 Arquitectura del Código
+
+- Código organizado por **módulos y clases** para facilitar el mantenimiento  
+- Uso de **funciones separadas** para cada operación del menú  
+- Integración continua de mejoras mediante **ramas dedicadas a cada historia**  
+- Uso de `.gitignore`, branch, commit, log, push, clone y demás comandos solicitados por la actividad
+
+---
+
+⚠️ **Proyecto realizado con fines académicos** para la asignatura Mantenimiento de Software.  
+Todos los derechos pertenecen a sus autores.
+
+---
+
+## 🫱🏽‍🫲🏽 Autores
+
+- Andrés Felipe Luenguas   
+- Alejandro Rodríguez
