@@ -1,0 +1,28 @@
+HIU1 : Búsqueda de libros por titulo
+----------------------------------------------------------------------------------------------------------------------
+
+Yo como usuario del sistema de biblioteca
+Quiero ingresar un título para buscar libros
+Para encontrar rápidamente los libros disponibles en la colección
+
+----------------------------------------------------------------------------------------------------------------------
+
+Criterios de aceptación:
+
+* Debe existir una opción en el menú principal para Buscar libro por título.
+* El sistema debe permitir que el usuario ingrese una cadena de texto.
+* La búsqueda debe devolver una lista de libros cuyos títulos coincidan parcial o totalmente con el texto ingresado.
+* Cada resultado debe mostrar título del libro, autor, y estado de disponibilidad.
+* Si no se encuentra ningún libro, debe mostrarse un mensaje claro: “No se encontraron libros con ese título”.
+
+
+Definición de hecho:
+
+* La opción de búsqueda está implementada en el menú del programa.
+* La búsqueda funciona correctamente compara títulos, considera mayúsculas/minúsculas, coincidencias parciales.
+* Los resultados se muestran en consola de forma ordenada.
+* Se manejan casos de búsqueda vacía o entrada inválida.
+* Se añade o actualiza documentación explicando cómo usar la búsqueda.
+
+
+
