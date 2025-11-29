@@ -48,8 +48,6 @@ Todo el proceso se gestionará mediante **Git y GitHub** utilizando ramas, commi
 
 ## 🧠 Historias de Usuario (a implementar)
 
-*(Ejemplo general; puedes reemplazarlas si ya tienes otras)*
-
 1. Como usuario quiero buscar libros por título para encontrarlos rápidamente  
 2. Como administrador quiero registrar nuevos usuarios para gestionar préstamos  
 3. Como usuario quiero visualizar los libros disponibles para seleccionar uno  
