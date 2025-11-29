@@ -1,0 +1,32 @@
+HIU4 : Como administrador quiero registrar préstamos y devoluciones para controlar el inventario
+
+--------------------------------------------------------------------------------------
+
+Historia de Usuario :
+
+Como administrador del sistema quiero 
+registrar préstamos y devoluciones
+Para llevar un control adecuado del inventario.
+
+--------------------------------------------------------------------------------------
+
+Criterios de aceptación :
+
+•Debo poder seleccionar un libro disponible.
+•Debo poder asignarlo a un usuario o persona.
+•Debe registrarse la fecha del préstamo y el responsable.
+•Debo poder marcar el libro como  “devuelto”.
+•El inventario debe actualizarse automáticamente mostrando el libro como “disponible”.
+•No debo poder prestar un libro que este prestado.
+
+---------------------------------------------------------------------------------------
+
+Definición de Hecho :
+
+•Funcionalidad de préstamos y devoluciones implementada sin errores visibles.
+•Pruebas unitarias y funcionales aprobadas.
+•Codigo revisado por otro miembro del equipo
+•Inventario actualizado automaticamente según cada acción.
+•Funcionalidad lista para despliegue
+
+-----------------------------------------------------------------------------------------
