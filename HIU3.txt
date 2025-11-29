@@ -1,0 +1,30 @@
+HIU3 :visualizar los libros disponibles para seleccionar uno
+
+--------------------------------------------------------------------------------------
+
+yo como usuario de la aplicacion  quiero visualizar los libros 
+diponibles para poder selecciones uno segun mi gusto o preferencia 
+
+--------------------------------------------------------------------------------------
+
+criterios de aceptación:
+
+•Debo poder ver una lista de todos los libros disponibles en el sistema.
+
+•Cada libro debe mostrar al menos: título, autor y una imagen (si aplica).
+
+•Debo poder hacer clic o seleccionar un libro para ver más detalles
+
+•Solo deben mostrarse libros que estén marcados como disponibles.
+
+---------------------------------------------------------------------------------------
+
+Definición de Hecho:
+
+•La vista muestra correctamente la lista de libros disponibles.
+•Se puede seleccionar un libro y acceder a su informacion detallado.
+•Se realizaron pruebas de usabilidad. 
+•Se realizaron pruebas de carga.
+•Funciona en dispositivos moviles.
+
+-----------------------------------------------------------------------------------------
