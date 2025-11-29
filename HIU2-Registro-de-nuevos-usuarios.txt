@@ -1,0 +1,27 @@
+HIU2 : Registro de nuevos usuarios
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Yo como administrador del sistema de biblioteca
+Quiero registrar nuevos usuarios con sus datos personales
+Para poder gestionar préstamos y devoluciones desde el sistema
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Criterios de aceptación:
+
+* Debe existir una opción en el menú de administración para “Registrar usuario”.
+* El formulario debe solicitar nombre completo, correo electrónico, tipo de usuario, y un identificador único, número de cédula o ID.
+* El sistema debe validar que los campos obligatorios estén completos, y que el identificador sea único.
+* Al registrar el usuario exitosamente, el sistema debe mostrar un mensaje de confirmación: Usuario registrado con éxito.
+* El nuevo usuario debe quedar almacenado adecuadamente y disponible para posteriores operaciones como préstamos.
+
+
+Definición de hecho:
+
+* La opción de “Registrar usuario” está implementada en el menú administrativo.
+* Validaciones de campos funcionan correctamente.
+* El usuario se almacena correctamente en la estructura de datos del sistema.
+* Se actualiza la documentación de uso indicando cómo registrar usuarios.
+* Se realizan pruebas que confirman que el registro funciona incluso cuando hay usuarios existentes, y que evitan duplicados.
+
+
