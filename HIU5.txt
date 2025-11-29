@@ -1,0 +1,32 @@
+HIU5 : ver mi historial de préstamos para conocer mis libros leídos
+--------------------------------------------------------------------------------------
+
+Historia de Usuario : 
+
+Como usuario de la aplicación
+Quiero ver mi historial de préstamos Para conocer 
+los libros que he leído y los que he tenido prestados
+
+
+--------------------------------------------------------------------------------------
+
+Criterios de aceptación :
+
+•Debo poder ver una lista con todos mis préstamos
+•Cada registro debe mostrar título del libro, fecha de préstamo y fecha de devolución.
+•El historial debe estar disponible desde mi perfil o menú principal.
+•Al seleccionar un libro del historial puedo ver información adicional del prestamo.
+
+
+---------------------------------------------------------------------------------------
+
+Definición de Hecho :
+
+•La vista del historial funciona correctamente en móvil y escritorio.
+•El sistema muestra únicamente los préstamos relacionados con el usuario autenticado.
+•Pruebas unitarias y funcionales aprobadas
+•El diseño coincide con el prototipo.
+•La funcionalidad está lista para despliegue
+•No existen errores críticos ni advertencias en el código
+
+-----------------------------------------------------------------------------------------
