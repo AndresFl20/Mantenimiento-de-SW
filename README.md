@@ -1,34 +1,36 @@
 # 📚 Mantenimiento de Software | CORPORACIÓN UNIVERSITARIA IBEROAMERICANA
 
 **Basado en:**  
-Unidad 2 – Actividad práctica colaborativa: Mantenimiento e implementación de funcionalidades mediante Git y GitHub.  
-**Proyecto principal:** Gestor de Biblioteca en Python — versión inicial mejorada mediante mantenimiento correctivo, adaptativo y evolutivo.
+Unidad 3 – Actividad práctica colaborativa: Aplicación de técnicas de mantenimiento de software.  
+**Proyecto principal:** Gestor de Biblioteca en Python — versión mejorada mediante mantenimiento correctivo, evolutivo, adaptativo y preventivo.  
+**Versión actual documentada:** **V4** (resultado final del mantenimiento aplicado).
 
 ---
 
-## ✍🏽 Descripción
+## ✍🏽 Descripción del Proyecto
 
-Este proyecto es un **Sistema de Gestión de Biblioteca** desarrollado en Python como parte del módulo Mantenimiento de Software. Su propósito es aplicar buenas prácticas de **control de versiones, documentación, trabajo colaborativo y técnicas de mantenimiento** mediante la creación, mejora y ampliación de un sistema funcional.
+Este proyecto implementa un **Sistema de Gestión de Biblioteca** en Python que sirve como base para aplicar diversas técnicas de mantenimiento de software en un entorno académico.  
+Durante la actividad, el equipo tomó la versión inicial del sistema, identificó mejoras necesarias y desarrolló una nueva versión **V4**, donde se integran:
 
-El equipo partirá de una versión base del sistema y realizará:
+- Nuevas funcionalidades solicitadas (mantenimiento **evolutivo**)  
+- Corrección de errores de la versión base (mantenimiento **correctivo**)  
+- Ajustes para mejorar compatibilidad y usabilidad (mantenimiento **adaptativo**)  
+- Limpieza, organización y documentación del código (mantenimiento **preventivo**)  
 
-- Mantenimiento **evolutivo** implementando cinco historias de usuario  
-- Mantenimiento **correctivo**  
-- Mejoras estructurales para garantizar un código más claro, modular y sostenible  
-
-Todo el proceso se gestionará mediante **Git y GitHub** utilizando ramas, commits estructurados, pull requests y seguimiento de cambios.
+El proceso se gestionó utilizando **Git y GitHub**, trabajando con ramas, commits descriptivos, revisiones y control de versiones.
 
 ---
 
-## 🔠 Características
+## 🔠 Características Principales del Proyecto
 
-- Gestión de libros: registro, consulta, disponibilidad  
+- Registro y consulta de libros  
 - Administración de usuarios  
-- Registro de préstamos y devoluciones  
-- Búsqueda de información por criterios definidos en las historias de usuario  
-- Mejoras introducidas a partir del mantenimiento requerido en la actividad  
-- Estructura modular del código para facilitar futuras actualizaciones  
-- Historial de cambios documentado mediante commits y ramas
+- Registro y control de préstamos y devoluciones  
+- Búsqueda de libros por título  
+- Visualización de libros disponibles  
+- Historial de préstamos por usuario  
+- Código modificado y documentado con comentarios indicando el tipo de mantenimiento aplicado  
+- Publicación de la versión final mejorada: **V4**
 
 ---
 
@@ -37,59 +39,89 @@ Todo el proceso se gestionará mediante **Git y GitHub** utilizando ramas, commi
 - **Lenguaje:** Python  
 - **Control de versiones:** Git  
 - **Repositorio colaborativo:** GitHub  
-- **Mantenimiento aplicado:**  
-  - Correctivo (corrección de errores)  
-  - Evolutivo (nuevas funcionalidades según historias de usuario)  
-  - Preventivo (mejoras de legibilidad y estructura)  
-  - Adaptativo (ajustes necesarios para nuevas necesidades)  
-- **Interacción:** Consola / línea de comandos
+- **Técnicas de mantenimiento aplicadas:**  
+  - ✔️ Correctivo  
+  - ✔️ Evolutivo  
+  - ✔️ Preventivo  
+  - ✔️ Adaptativo  
+- **Interacción:** Consola
 
 ---
 
-## 🧠 Historias de Usuario (a implementar)
+## 🧠 Historias de Usuario Implementadas (Mantenimiento Evolutivo)
 
-1. Como usuario quiero buscar libros por título para encontrarlos rápidamente  
-2. Como administrador quiero registrar nuevos usuarios para gestionar préstamos  
-3. Como usuario quiero visualizar los libros disponibles para seleccionar uno  
-4. Como administrador quiero registrar préstamos y devoluciones para controlar el inventario  
-5. Como usuario quiero ver mi historial de préstamos para conocer mis libros leídos
+1. Como usuario, quiero **buscar libros por título** para encontrarlos rápidamente.  
+2. Como administrador, quiero **registrar nuevos usuarios** para gestionar préstamos.  
+3. Como usuario, quiero **visualizar los libros disponibles** antes de tomar uno.  
+4. Como administrador, quiero **registrar préstamos y devoluciones** para mantener el inventario actualizado.  
+5. Como usuario, quiero **ver mi historial de préstamos** para conocer mis lecturas anteriores.  
+
+Cada historia fue implementada dentro de una rama independiente y luego integrada mediante pull requests, documentada en la versión **V4**.
 
 ---
 
 ## 📂 Estructura del Código
 
-### Clases principales
+### Clases principales:
 - **Libro** — información del libro  
-- **Usuario** — información del lector  
-- **Biblioteca** — lógica principal del sistema
+- **Usuario** — datos del usuario y su historial  
+- **Biblioteca** — lógica de gestión, búsqueda, registro y préstamos  
 
-### Funcionalidades del menú
-- Registrar libros  
-- Registrar usuarios  
-- Prestar y devolver libros  
-- Consultar libros  
-- Consultar usuarios  
-- Ver historial de préstamos  
-- Búsquedas según funcionalidades solicitadas
-
----
-
-## 🔧 Uso
-
-- Ejecutar el programa desde consola  
+### Funcionalidades integradas:
 - Registrar libros y usuarios  
-- Gestionar préstamos y devoluciones  
-- Visualizar el estado del sistema  
-- Probar las funcionalidades implementadas en cada historia de usuario
+- Buscar libros  
+- Mostrar disponibilidad  
+- Realizar préstamos y devoluciones  
+- Consultar historial de préstamos  
+- Menú interactivo por consola  
 
 ---
 
-## 🏢 Arquitectura del Código
+## 🔧 Cambios Incluidos en la Versión V4
 
-- Código organizado por **módulos y clases** para facilitar el mantenimiento  
-- Uso de **funciones separadas** para cada operación del menú  
-- Integración continua de mejoras mediante **ramas dedicadas a cada historia**  
-- Uso de `.gitignore`, branch, commit, log, push, clone y demás comandos solicitados por la actividad
+La versión **V4** incorpora:
+
+### ✔️ Mantenimiento Correctivo
+- Manejo de errores al registrar préstamos.  
+- Validación de usuarios ya registrados.  
+- Corrección de rutas lógicas dentro del menú.  
+
+### ✔️ Mantenimiento Evolutivo
+- Implementación completa de las 5 historias de usuario.  
+- Integración del historial de préstamos.  
+- Nueva función de búsqueda por título.  
+- Visualización de libros disponibles.  
+
+### ✔️ Mantenimiento Adaptativo
+- Ajustes del menú para nuevas funciones.  
+- Adecuación de clases para incorporar nuevos atributos.  
+
+### ✔️ Mantenimiento Preventivo
+- Comentarios en el código indicando cada tipo de mantenimiento.  
+- Reorganización y limpieza de funciones.  
+- Validaciones adicionales para mejorar estabilidad.  
+
+Todas estas mejoras están incluidas y documentadas en el código fuente dentro del repositorio.
+
+---
+
+## 🏁 Uso del Sistema
+
+1. Ejecutar el programa desde consola.  
+2. Elegir una opción del menú.  
+3. Registrar libros y usuarios.  
+4. Gestionar préstamos / devoluciones.  
+5. Consultar el historial y disponibilidad.  
+
+La versión **V4** garantiza una experiencia consistente gracias a las mejoras aplicadas.
+
+---
+
+## 🧾 Control de Versiones
+- `V1` — Versión inicial (entrega base del proyecto).  
+- `V2` — Primeros ajustes y correcciones menores.  
+- `V3` — Integración de árboles y grafos (estructura intermedia).  
+- **`V4` — Versión final documentada y mantenida (actual)**.
 
 ---
 
